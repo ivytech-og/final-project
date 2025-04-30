@@ -22,10 +22,10 @@ from tkinter import messagebox
 
 class CoffeeOrderingApp:
     def __init__(self, root):
-        self.root = root  # Creates the man window
+        self.root = root  # Creates the man window if the program
         # Creates the main window title
         self.root.title("Drip n’ Sip Coffee Ordering System")
-        # sets the window size for the main window
+        # sets the window size for the main window of the program
         self.root.geometry("400x400")
 
         # Initialize variables to hold order selections
